@@ -1,0 +1,205 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+html {
+     font-size: 62.5%;
+}
+
+body {
+     font-size: 1.6rem;
+     font-family: Arial, Verdana, Tahoma, sans-serif;
+}
+
+ul {
+     list-style: none;
+}
+a {
+     text-decoration: none;
+     color:black;
+}
+
+/* Actual content styling */
+
+.nav {
+     display:flex;
+     height: 60px;
+     justify-content: flex-end;
+     align-items: center;
+}
+
+.navItems {
+     margin-right: 18px;
+}
+
+.navItems > a {
+     font-size: 1.2rem;
+}
+
+.navItems a:hover {
+     text-decoration: underline;
+}
+
+.navItems:last-child a > img{
+     border-radius: 50%;
+}
+.googleIcon >  a > img:hover {
+     box-shadow: 0px 0 3px 5px  #5f636842;
+     border-radius: 100px;
+
+}
+
+.navItems:last-child a > img:hover {
+     box-shadow: 0px 0 2px 3px  rgba(163, 163, 163, 0.6);
+}
+.googleIcon, .profile {
+     margin-top: 8px;
+}
+
+/* Main section styling */
+
+.mainSection {
+     width: 582px;
+     display:flex;
+     flex-flow:column nowrap;
+     align-items: center;
+
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+}
+
+.logo {
+     margin-bottom: 29px;
+}
+
+.search {
+     width: 590px;
+     height: 46px;
+     border-radius: 25px;
+     border: 1px solid #dfe1e5;
+     background-color: #fff;
+     margin-bottom: 29px;
+     font-size: 1.5rem;
+}
+
+.search:hover {
+     box-shadow: 0 0 8px rgba(0, 0, 0, .2);
+}
+
+.googleSearch {
+     color:#202124;
+     font-size: 1.2rem;
+     line-height: 27px;
+     position: relative;
+     right: 60px;
+}
+
+.googleSearch:hover, .feelingLucky:hover {
+     box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+}
+
+.feelingLucky {
+     color:#202124;
+     font-size: 1.2rem;
+     line-height: 27px;
+     position: relative;
+     left: 60px;
+     bottom: 36px;
+     margin-left: 40px;
+}
+
+.googleOffer {
+     font-size: 1.6rem;
+     line-height: 28px;
+     color:#3c4043;
+
+}
+
+.googleOffer > a {
+     color:#1a0dab;
+     font-size: 1.5rem;
+}
+
+.googleOffer > a:hover {
+     text-decoration: underline;
+}
+
+.btn {
+     background-color: #f8f9fa;
+     height: 36px;
+     width: 129px;
+     text-align: center;
+     border-radius: 5px;
+     padding: 5px 10px;
+}
+
+input[type=text] {
+     background:url('image/search.svg');
+     background-repeat: no-repeat;
+     background-position: 16px 12px;
+     padding-left: 50px;
+     padding-bottom: 5px;
+     background-size: 20px;
+}
+
+.search:focus{
+     outline: none;
+}
+
+/* Footer styling */
+
+.footer {
+     width: 100%;
+     position: absolute;
+     bottom: 0;
+}
+
+.nationality {
+     height: 48px;
+     background-color: #F2F2F2;
+     width: 100%;
+     font-size: 1.2rem;
+     color: #70757a;
+     display: flex;
+     align-items: center;
+     border-bottom: 1px solid #dfe1e5;
+
+}
+
+.nationality > p {
+     margin-left: 31px;
+}
+
+.mainFooter {
+     display: flex;
+     align-items: center;
+     height: 47px;
+     background-color: #F2F2F2;
+     font-size: 1.2rem;
+}
+.footerItems > a{
+     color: #70757a;
+}
+
+.footerItems > a:hover {
+     text-decoration: underline;
+}
+
+.footerItems {
+     margin-left: 30px;
+}
+
+.footerItems:nth-child(1) {
+     margin-left: 35px;
+}
+
+.footerItems:last-child{
+     margin-right: 35px;
+}
+
+.footerItems:nth-child(4) {
+     margin-right: auto;
+}
