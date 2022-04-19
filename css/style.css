@@ -203,3 +203,18 @@ input[type=text] {
 .footerItems:nth-child(4) {
      margin-right: auto;
 }
+
+/* Media queries */
+
+@media only screen and (max-width: 450px) {
+
+     .footer {
+          display: none;
+     }
+
+     .search {
+          width: 60%;
+          transition: .5s ease;
+     }
+     
+}
