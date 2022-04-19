@@ -137,7 +137,7 @@ a {
 }
 
 input[type=text] {
-     background:url('../image/search.svg');
+     background:url('../image/search.png');
      background-repeat: no-repeat;
      background-position: 16px 12px;
      padding-left: 50px;
